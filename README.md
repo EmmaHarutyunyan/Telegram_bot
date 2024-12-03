@@ -41,7 +41,7 @@ Before setting up the bot, ensure you have the following installed:
     echo "BOT_TOKEN=your_telegram_bot_token" > .env
     ```
 
-3. **Replace `your_telegram_bot_token` with your actual Telegram bot token** (obtain it by chatting with @BotFather on Telegram).
+3. **Replace `your_telegram_bot_token` with your actual Telegram bot token** (obtain it by chatting with [@BotFather](https://t.me/BotFather) on Telegram).
 
 4. **Install the required libraries:**
 
