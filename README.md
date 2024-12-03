@@ -25,26 +25,36 @@ Before setting up the bot, ensure you have the following installed:
 - **Python 3.x**
 - **Required libraries**: `python-dotenv` and `pyTelegramBotAPI`
 
+### Setup Instructions
 
+1. **Clone the repository and navigate to the project directory:**
 
-# 1. Clone the repository and navigate to the project directory:
-bash
-git clone https://github.com/EmmaHarutyunyan/Telegram_bot.git
-cd Telegram_bot
+    ```bash
+    git clone https://github.com/EmmaHarutyunyan/Telegram_bot.git
+    cd Telegram_bot
+    ```
 
-# 2. Create a .env file in the root directory of the project and add the bot token:
-bash
-touch .env
-echo "BOT_TOKEN=your_telegram_bot_token" > .env
+2. **Create a `.env` file in the root directory of the project and add the bot token:**
 
-# 3. Replace "your_telegram_bot_token" with your actual Telegram bot token (obtain it by chatting with @BotFather on Telegram).
+    ```bash
+    touch .env
+    echo "BOT_TOKEN=your_telegram_bot_token" > .env
+    ```
 
-# 4. Install required libraries:
-bash
-pip install python-dotenv pyTelegramBotAPI
+3. **Replace `your_telegram_bot_token` with your actual Telegram bot token** (obtain it by chatting with @BotFather on Telegram).
 
-# 5. Run the bot:
-bash
-python bot.py
+4. **Install the required libraries:**
 
+    ```bash
+    pip install python-dotenv pyTelegramBotAPI
+    ```
 
+5. **Run the bot:**
+
+    ```bash
+    python bot.py
+    ```
+
+---
+
+With this setup, your **Photo Studio Bot** will be ready to serve users on Telegram! 🎉
