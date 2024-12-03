@@ -28,18 +28,23 @@ Before setting up the bot, ensure you have the following installed:
 
 
 # 1. Clone the repository and navigate to the project directory:
+bash
 git clone https://github.com/EmmaHarutyunyan/Telegram_bot.git
 cd Telegram_bot
 
 # 2. Create a .env file in the root directory of the project and add the bot token:
+bash
 touch .env
 echo "BOT_TOKEN=your_telegram_bot_token" > .env
 
 # 3. Replace "your_telegram_bot_token" with your actual Telegram bot token (obtain it by chatting with @BotFather on Telegram).
 
 # 4. Install required libraries:
+bash
 pip install python-dotenv pyTelegramBotAPI
 
 # 5. Run the bot:
+bash
 python bot.py
+
 
