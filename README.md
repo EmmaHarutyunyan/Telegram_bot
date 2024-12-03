@@ -25,32 +25,21 @@ Before setting up the bot, ensure you have the following installed:
 - **Python 3.x**
 - **Required libraries**: `python-dotenv` and `pyTelegramBotAPI`
 
-To install the necessary libraries, use the following command:
 
-```bash
+
+# 1. Clone the repository and navigate to the project directory:
+git clone https://github.com/EmmaHarutyunyan/Telegram_bot.git
+cd Telegram_bot
+
+# 2. Create a .env file in the root directory of the project and add the bot token:
+touch .env
+echo "BOT_TOKEN=your_telegram_bot_token" > .env
+
+# 3. Replace "your_telegram_bot_token" with your actual Telegram bot token (obtain it by chatting with @BotFather on Telegram).
+
+# 4. Install required libraries:
 pip install python-dotenv pyTelegramBotAPI
 
-
-1. **Clone this repository**:
-
-    ```bash
-    git clone https://github.com/EmmaHarutyunyan/Telegram_bot.git
-    cd Telegram_bot
-    ```
-
-2. **Create a `.env` file** in the root directory of the project. It should contain the following:
-
-    ```env
-    BOT_TOKEN=your_telegram_bot_token
-    ```
-
-    Replace `your_telegram_bot_token` with your actual Telegram bot token (you can get this by talking to [@BotFather](https://t.me/BotFather) on Telegram).
-
-3. **Run the bot**:
-
-    ```bash
-    python bot.py
-    ```
-
-The bot will now be live and ready to interact with your Telegram users! ✨
+# 5. Run the bot:
+python bot.py
 
